@@ -1,0 +1,20 @@
+form{
+    width: 15%;
+    margin: auto;
+}
+
+.contenedor{
+    display: flex;
+    height: 100%;
+}
+    
+.tituloTabla{
+    display: flex;
+    place-content: center;
+}
+
+.contenedorTabla{
+    margin-top: auto;
+    margin: auto;
+}
+    

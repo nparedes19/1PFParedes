@@ -1,0 +1,19 @@
+<mat-toolbar color="primary">
+  <div>
+    <button mat-icon-button (click)="sidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+  <a>
+    Primera entrega del proyecto del curso de Angular
+  </a>
+</mat-toolbar>
+<mat-sidenav-container fxFlexFill >
+  <mat-sidenav #sidenav fxLayout="column" mode="over" opened="true">
+    <div>
+      <a mat-button>Alumnos</a><br>
+      <a mat-button>Cursos</a>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content><app-alumnos></app-alumnos></mat-sidenav-content>
+</mat-sidenav-container>
